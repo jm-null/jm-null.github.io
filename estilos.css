@@ -15,14 +15,14 @@ body {
 header {
   background: #000000;
   color: white;
-  padding: 50px 55px;
+  padding: 10px 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 img {
-  width: 50px;
+  width: 200px;
 }
 
 .logo {
@@ -31,11 +31,12 @@ img {
 }
 
 nav {
-  font-family: monospace;
-  font-size: 20px;
-  list-style: none;
-  display: flex;
-  gap: 20px;
+    font-family: monospace;
+    font-size: 20px;
+    display: flex;
+    padding: 29px;
+    gap: 20px;
+    flex-direction: row;
 }
 
 .nav a {
