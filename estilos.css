@@ -3,38 +3,43 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: black;
 }
 
 body {
-  font-family: 'Arial', sans-serif;
-  color: #333;
+  font-family: monospace;
+  color: #ffffff;
   background-color: #f4f4f4;
 }
 
 header {
-  background: #1a1a1a;
+  background: #000000;
   color: white;
-  padding: 15px 20px;
+  padding: 50px 55px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+img {
+  width: 50px;
+}
+
 .logo {
-  font-size: 1.5em;
+  font-size: 25px;
   font-weight: bold;
 }
 
-nav ul {
+nav {
+  font-family: monospace;
+  font-size: 20px;
   list-style: none;
   display: flex;
   gap: 20px;
 }
 
-nav ul li a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
+.nav a {
+  color: #ffffff;
 }
 
 .menu-icon {
@@ -44,7 +49,7 @@ nav ul li a {
 }
 
 .hero {
-  background: url('https://images.unsplash.com/photo-1518779578993-ec3579fee39f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80') no-repeat center center/cover;
+  background: url(/img/fondo.jpg) no-repeat center center/cover;
   color: white;
   text-align: center;
   padding: 100px 20px;
@@ -52,6 +57,7 @@ nav ul li a {
 
 .hero h1 {
   font-size: 2.5em;
+  background-color: rgb(0, 0, 0);
 }
 
 .hero span {
@@ -60,8 +66,10 @@ nav ul li a {
 
 section {
   padding: 60px 20px;
-  max-width: 1000px;
+  max-width: 2000px;
   margin: auto;
+  font-family: monospace;
+  font-size: 15px;
 }
 
 .proyectos-grid {
@@ -71,11 +79,13 @@ section {
 }
 
 .proyecto {
-  background: white;
-  padding: 20px;
+  background: rgb(255 255 255);
+  padding: 10px;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  box-shadow: 5, 5 10px #04ffda;
 }
+
+
 
 form {
   display: flex;
